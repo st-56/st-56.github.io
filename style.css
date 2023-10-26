@@ -1,5 +1,7 @@
 html{
     background-color: #EDF2C5;
+    width: 1440px;
+    height: 1024px;
 }
 
 .title{
@@ -127,6 +129,8 @@ h1{
     margin-left: 64px;
     width: 528px;
     height: 45px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .right-col{
@@ -141,7 +145,10 @@ h1{
 .small-pic{
     width: 528px;
     height: 140px;
+    display: flex;
+    flex-direction: row;
 }
+
 
 .pic1{
     margin-top: 16px;
@@ -158,15 +165,20 @@ h1{
     margin-left: 16px;
 }
 
-footer{
+.foot{
+    float: left;
     background-color: #778A50;
+    width: 1440px;
+    height: 60px;
+    margin-top: 117px;
+    margin-left: 0px;
+}
+
+.copyrights{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    color: #F7FBDA;
-    width: 1440px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #EDF2C5;
+    margin-top: 21px;
+    margin-left: 569px;
 }
