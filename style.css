@@ -15,7 +15,6 @@ html{
     background-color: #778A50;
     width: 1120px;
     height: 44px;
-    font-size: 16px;
     margin-left: 160px;
 }
 
@@ -25,19 +24,77 @@ html{
     padding: 0;
 }
 
-.item{
+.item1{
+    margin-left: 30px;
     list-style: none;
     display: block;
-    color: #F7FBDA;
+    color: #EDF2C5;
     font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
     font-weight: 900;
-    margin-left: 30px;
+    margin-top: 10px;
+    width: 49px;
+    height: 24px;
+}
+
+.item2{
+    margin-left: 62px;
+    display: flex;
+    white-space: nowrap;
+    list-style: none;
+    display: block;
+    color: #EDF2C5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    width: 49px;
+    height: 24px;
+}
+
+.item3{
+    margin-left: 66px;
+    list-style: none;
+    display: block;
+    color: #EDF2C5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    width: 49px;
+    height: 24px;
+}
+
+.item4{
+    margin-left: 67px;
+    list-style: none;
+    display: block;
+    color: #EDF2C5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    width: 49px;
+    height: 24px;
+}
+
+.item5{
+    margin-left: 61px;
+    list-style: none;
+    display: block;
+    color: #EDF2C5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    width: 49px;
+    height: 24px;
 }
 
 .main-pic{
     width: 1120px;
     height: 448px;
-    margin-top: 166px;
+    margin-top: 16px;
     margin-left: 160px;
 }
 
@@ -48,15 +105,57 @@ h1{
 .left{
     float: left;
     background-color: #778A50;
+    margin-top: 32px;
+    margin-left: 160px;
+    width: 528px;
+    height: 45px;
+}
+
+.left-col{
     font-family: 'Noto Sans', sans-serif;
-    color: #F7FBDA;
+    color: #EDF2C5;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .right{
     float: right;
     background-color: #778A50;
+    margin-top: 32px;
+    margin-left: 64px;
+    width: 528px;
+    height: 45px;
+}
+
+.right-col{
     font-family: 'Noto Sans', sans-serif;
-    color: #F7FBDA;
+    color: #EDF2C5;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.small-pic{
+    width: 528px;
+    height: 140px;
+}
+
+.pic1{
+    margin-top: 16px;
+    margin-left: 160px;
+}
+
+.pic2{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.pic3{
+    margin-top: 16px;
+    margin-left: 16px;
 }
 
 footer{
