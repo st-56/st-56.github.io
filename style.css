@@ -9,16 +9,22 @@ html{
     width: 1122px;
     height: 62px;
     margin-top: 36px;
+    margin-bottom: 8px;
     margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
-    width: 1122px;
-    height: 62px;
-    margin-top: 36px;
-    margin-left: 160px;
+    padding-top: 0px;
+    margin-top: 3px;
+}
+
+.logo{
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
 
 .nav{
@@ -26,6 +32,7 @@ html{
     width: 1120px;
     height: 44px;
     margin-left: 160px;
+    border-radius: 3px;
 }
 
 .list{
@@ -112,39 +119,54 @@ h1{
     color: #778A50;
 }
 
-.left{
-    float: left;
-    background-color: #778A50;
+.column{
+    width: 1120px;
+    height: 201px;
+    display: flex;
+    justify-content: space-between;
     margin-top: 32px;
     margin-left: 160px;
+}
+
+.left{
+    /*float: left;*/
     width: 528px;
-    height: 45px;
+    height: 201px;
 }
 
 .left-col{
+    background-color: #778A50;
+    width: 528px;
+    height: 45px;
+    border-radius: 3px;
+}
+
+.col1{
     font-family: 'Noto Sans', sans-serif;
     color: #EDF2C5;
-    margin-top: 10px;
-    margin-left: 30px;
-    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 30px;font-weight: 900;
     font-size: 16px;
 }
 
 .right{
-    float: right;
-    background-color: #778A50;
-    margin-top: 32px;
-    margin-right: 144px;
-    margin-bottom: 16px;
+    /*float: right;*/
     width: 528px;
-    height: 45px;
+    height: 201px;
 }
 
 .right-col{
+    background-color: #778A50;
+    width: 528px;
+    height: 45px;
+    border-radius: 3px;
+}
+
+.col2{
     font-family: 'Noto Sans', sans-serif;
     color: #EDF2C5;
-    margin-top: 10px;
-    margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
     font-weight: 900;
     font-size: 16px;
 }
@@ -153,10 +175,11 @@ h1{
     width: 528px;
     height: 140px;
     display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
 }
 
-
-.pic1{
+/*.pic1{
     margin-top: 16px;
     margin-left: 160px;
 }
@@ -169,12 +192,12 @@ h1{
 .pic3{
     margin-top: 16px;
     margin-left: 16px;
-}
+}*/
 
 .ground{
     width: 528px;
     height: 140px;
-    margin-top: 29px;
+    margin-top: 16px;
     background-color: #F7FBDA;
 }
 
@@ -208,6 +231,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 .copyrights{
